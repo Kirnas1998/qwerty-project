@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1298px;
+    margin: 0 auto;
+}
+.contacts__connection{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 195px;
+    width: 986px;
+}
+.contacts__information{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts__text{
+    position: absolute;
+    top: 0;
+    left: 27%;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 450px;
+    height: 108px;
+    text-align:center;
+}
+.contacts__number{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.contacts__email{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.geoposition__block{
+    width: 380px;
+    height: 222px ;
+display: flex;
+flex-direction: column;
+border: 2px solid #018ABE;
+    border-radius: 15px;
+    justify-content: space-around;
+    padding: 0px 30px;
+}
+.contacts__block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+width: 80%;
+margin-top: 60px;
+}
+.geoposition__block h2{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.geoposition__block p{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 135%;
+    color: #FFFFFF;
+    
+}
+.geoposition__block span{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.map__address{
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+
+
+
